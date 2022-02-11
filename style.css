@@ -1,0 +1,271 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* .container-fluid {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+} */
+
+.container-fluid .left img {
+    width: 50%;
+}
+
+.container-fluid .right a {
+    text-align: center;
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px 10px;
+    color: black;
+}
+
+.container-fluid .icon i {
+    text-align: right;
+    margin: 10px;
+}
+
+.container-fluid .row .left {
+    width: 15%;
+    padding: 50px 10px;
+}
+
+.container-fluid .row .right {
+    width: 60%;
+    padding: 55px 0;
+}
+
+.container-fluid .row .icon {
+    width: 20%;
+    padding: 55px 0;
+}
+
+#main {
+    background-image: url(https://wp.the4.co/kalles/wp-content/uploads/2021/07/slideshow_image.jpg);
+    position: relative;
+    z-index: 1;
+}
+
+#main .overlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.322);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+#main .maintext {
+    text-align: center;
+    color: #fff;
+    padding: 19rem 0;
+}
+
+#main .maintext h1 {
+    font-size: 60px;
+}
+
+#main .maintext p {
+    font-size: 40px;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+#main .maintext a {
+    border: 2px solid #fff;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 25px;
+}
+
+#photos .container .row .box {
+    position: relative;
+}
+
+#photos .container .row img {
+    width: 100%;
+}
+
+#photos .container .row a {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-decoration: none;
+    background-color: #fff;
+    color: black;
+    padding: 10px 25px;
+    font-size: 14px;
+    font-weight: bold;
+    border: 1px solid transparent;
+}
+
+#photos {
+    padding: 1rem 0;
+}
+
+#photos .box:hover img {
+    cursor: pointer;
+    transform: scale(1.3);
+    transition: 3s;
+}
+
+#photos .container .row .boxtext {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-decoration: none;
+    color: black;
+}
+
+#photos .container .row .boxtext1 {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-decoration: none;
+    color: black;
+}
+
+.boxtext p {
+    font-size: 15px;
+}
+
+.boxtext h2 {
+    font-size: 40px;
+}
+
+.boxtext1 p {
+    font-size: 20px;
+}
+
+.boxtext1 h1 {
+    font-size: 50px;
+}
+
+.boxtext1 {
+    text-align: center;
+}
+
+.boxtext1 span {
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+#photos1 .container .col-lg-3 .box1 img {
+    width: 100%;
+}
+
+#photos1 .texttrending {
+    margin: 50px 0;
+    text-align: center;
+}
+
+#photos1 .texttrending p {
+    color: gray;
+    font-size: 20px;
+    font-family: libre baskerville, serif;
+    font-weight: 400;
+}
+
+#photos1 .text2 {
+    margin: 15px 0px;
+    color: gray;
+}
+
+#photos1 .iconsstar1 {
+    color: rgb(253, 188, 0);
+}
+
+#photos1 .iconsstar {
+    color: gray;
+}
+
+#photos2 .textpro {
+    margin: 50px 0;
+    text-align: center;
+}
+
+#photos2 .container .col-lg-3 .box1 img {
+    width: 100%;
+}
+
+#photos2 .text3 {
+    margin: 15px 0px;
+    color: gray;
+}
+
+#photos2 .iconsstar2 {
+    color: rgb(253, 188, 0);
+}
+
+#photos2 .textpro p {
+    color: gray;
+    font-size: 20px;
+    font-family: libre baskerville, serif;
+    font-weight: 400;
+}
+
+#photos2 .textpro a {
+    text-decoration: none;
+    text-align: center;
+    color: gray;
+    font-size: 20px;
+    margin: 10px;
+    border: 1px dashed black;
+    border-radius: 25px;
+    padding: 10px 20px;
+}
+
+#photos3 .textblog {
+    text-align: center;
+}
+
+#photos3 .boxblog {
+    margin: 20px 0;
+}
+
+#photos3 .boxblog p,
+span {
+    color: gray;
+}
+
+#photos .boxblog img {
+    width: 100%;
+}
+
+#photos3 .boxblog:hover img {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 3s;
+}
+
+#insta .boxinsta img {
+    width: 100%;
+}
+
+#insta .allbox {
+    display: flex;
+}
+
+#insta {
+    padding: 5rem 0;
+}
+
+#insta .instablog {
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+}
